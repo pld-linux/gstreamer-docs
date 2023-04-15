@@ -2,12 +2,12 @@
 Summary:	GStreamer design documents collection
 Summary(pl.UTF-8):	Zbiór dokumentów projektowych GStreamera
 Name:		gstreamer-docs
-Version:	1.20.1
+Version:	1.22.2
 Release:	0.1
 License:	OPL v1.0, LGPL v2.1+, BSD, MIT, CC-BY-SA 4.0
 Group:		Documentation
 Source0:	https://gstreamer.freedesktop.org/src/gstreamer-docs/gstreamer-docs-%{version}.tar.xz
-# Source0-md5:	dbb54e36e0f882879fbfc94176734d27
+# Source0-md5:	b8dc03a89c5af97ef4645b2382b733ff
 URL:		https://gstreamer.freedesktop.org/
 BuildRequires:	tar >= 1:1.22
 BuildRequires:	xz
@@ -37,5 +37,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc COPYING LICENSE.BSD LICENSE.CC-BY-SA-4.0 LICENSE.MIT LICENSE.OPL README.md examples images markdown plugins-introspection
+%doc COPYING LICENSE.BSD LICENSE.CC-BY-SA-4.0 LICENSE.MIT LICENSE.OPL README.md
 %{_datadir}/devhelp/books/GStreamer
